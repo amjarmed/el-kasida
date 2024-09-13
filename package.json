@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve": "live-server ./",
+    "scss": "node-sass -w scss/ -o css/",
+    "run-all": "npm-run-all --parallel serve scss"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
